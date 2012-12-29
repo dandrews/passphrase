@@ -1,5 +1,5 @@
-passphrase
-==========
+passphrase api
+==============
 
 A simple API for generating secure passphrases, inspired by http://xkcd.com/936/ and http://passphra.se/
 
