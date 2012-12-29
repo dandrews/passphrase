@@ -10,6 +10,8 @@ app.configure(function () {
  
 app.get('/passphrase', passphrase.generate);
 app.get('/passphrase/:n', passphrase.generate_n);
- 
-app.listen(3000);
-console.log('Listening on port 3000...');
+
+var port = process.env.PORT || 5000;
+app.listen(port, function() {
+    console.log("Listening on " + port);
+});
