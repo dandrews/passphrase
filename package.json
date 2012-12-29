@@ -1,5 +1,5 @@
 {
-    "name": "passphrase api",
+    "name": "passphrase",
     "description": "Passphrase API Application",
     "version": "0.0.1",
     "private": true,
